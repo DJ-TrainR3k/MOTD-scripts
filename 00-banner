@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# This script has reminants of my previous implementation so you can output different stats but those are already handled with the other scripts now.
+
+SYSTEM="$(lsb_release -d | cut -d: -f2)"
+RELEASE="$(uname -r)"
+GNU="$(uname -o)"
+ARCH="$(uname -i)"
+HOSTNAME="$(cat /etc/hostname)"
+RED='\033[0;31m' # Red
+ORANGE='\033[01;38;5;208m' # Green
+NC='\033[0m' # No Color
+
+echo -e ""
+echo -e Welcome to ${RED}${HOSTNAME}${NC}

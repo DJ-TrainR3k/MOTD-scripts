@@ -1,0 +1,24 @@
+{
+  "name": "MOTD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJ-TrainR3k/MOTD-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/DJ-TrainR3k/MOTD-scripts",
+  "dependencies": {
+    "ansi-styles": "^3.2.1",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
+    "get-ssl-certificate": "^2.1.2",
+    "inquirer": "^5.2.0"
+  }
+}
