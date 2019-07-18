@@ -12,7 +12,7 @@ This repository contains MOTD scripts for my own server. Combined from [Falconst
 ![screen](screencap.png)
 
 # Installing
-1. In /etc/ssh/sshd_config need to set up string to `PrintMotd yes`
+1. In /etc/ssh/sshd_config set `PrintMotd yes`
 2. Install `update-motd`
 3. Install npm dependecies for SSL script `npm install` 
 4. Edit each file and change/add the relevant info (Domains for SSL, HDDs, Services...)
