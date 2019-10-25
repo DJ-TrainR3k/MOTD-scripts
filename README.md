@@ -19,7 +19,7 @@ This repository contains MOTD scripts for my own server. Combined from [Falconst
 
 Once thats done, copy the scripts and make theme executable 
 ```
-git clone https://github.com/DJ-TrainR3k/MOTD-scripts.git
+git clone https://github.com/trevor229/MOTD-scripts.git
 cd MOTD-scripts
 sudo chown root:root *
 sudo cp * /etc/update-motd.d/
